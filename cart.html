@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exohere</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body>
+    <header class="container fixed">
+        <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img class='logo' src='img/logo.png' height="50px"
+                        alt='logo'></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class='nav-link' href='index.html#products'>Товари</a>
+                        </li>
+
+                    </ul>
+                    <form id="searchForm" class="d-flex mx-auto" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Пошук" aria-label="Search">
+                        <button class="btn btn-outline-secondary btn-search" type="submit">Знайти</button>
+                    </form>
+                    <button class="cart-btn" id="cartBtn">
+                        Кошик
+                        <span class="cart-counter">0</span>
+                        </li>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container cart-page">
+
+        <section class="cart py-4">
+            <h2>Ваш кошик</h2>
+            <div class="cart-items-list">
+                У кошику пусто
+            </div>
+            <div class="margin-y">
+                Сума замовлення: <span class="cart-total">0</span> грн.
+            </div>
+            <button id="orderBtn" class="cart-btn margin-y">Оформити замовлення</button>
+        </section>
+        <section class="order">
+            <h2>Оформлення замовлення</h2>
+            <form class="order-form" action="" method="post">
+                <div class="form-group mt-3">
+                    <label for="firstName">Ім'я:</label>
+                    <input class="form-control" type="text" id="firstName" name="firstName" required>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="lastName">Прізвище:</label>
+                    <input class="form-control" type="text" id="lastName" name="lastName" required>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="email">Електронна пошта:</label>
+                    <input class="form-control" type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="phone">Номер телефону:</label>
+                    <input class="form-control" type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="deliveryMethod">Спосіб доставки:</label>
+                    <select class="form-select" id="deliveryMethod" name="deliveryMethod" required>
+                        <option value="standard">Нова пошта</option>
+                        <option value="express">Укрпошта</option>
+                    </select>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="address">Адреса доставки:</label>
+                    <input class="form-control" type="text" id="address" name="address" required>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="comment">Коментар:</label>
+                    <textarea class="form-control" id="comment" name="comment" rows="4"></textarea>
+                </div>
+                <button type="submit" class="cart-btn margin-y">Підтвердити</button>
+
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>Релізний проект Сумєнкової Віталіни &copy; 2026</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+        <script src='https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js'></script>
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+
+</body>
+
+</html>
