@@ -1,20 +1,134 @@
 [
     {
-        "title": "sannakji",
-        "price": 200,
-        "image": "1.jpeg",
-        "description": "Являє собою приправленого кунжутною олією і посипаного кунжутом живого восьминога"
+        "title": "Sannakji",
+        "price": 9,
+        "image": "1_sannakji.jpeg",
+        "description": "Variety of hoe (raw dish) made with long arm octopus, a small octopus species called nakji in Korean. The dish consists of live octopus that has been cut into small pieces and served immediately, usually still squirming on the plate."
     },
     {
-        "title": "Stinking Bishop",
-        "price": 160,
-        "image": "2.jpeg",
-        "description": "англійський сир із коров'ячого молока, відомий своїм екстремально різким запахом, що нагадує «несвіжі шкарпетки», через дозрівання кірки в грушевому сидрі."
+        "title": "Chesse 'Stinking Bishop'",
+        "price": 32,
+        "image": "2_stinking-bishop.jpeg",
+        "description": "French cheese made from cow's milk, known for its pungent smell and distinctive taste. It is named after the Stinking Bishop pear, whose juice is used to wash the cheese during its maturation process."
     },
     {
-        "title": "Peruvian Cuy",
-        "price": 400,
-        "image": "3.jpeg",
-        "description": "традиційне, делікатесне блюдо з морської свинки, популярне в Перу та інших андських країнах, яке вживається вже тисячі років."
+        "title": "Cuy",
+        "price": 33,
+        "image": "3_cuy.jpeg",
+        "description": "Traditional dish in several South American countries, particularly in Peru, Ecuador, and Colombia. The dish typically involves roasting or frying the animal whole."
+    },
+    {
+        "title": "Balut",
+        "price": 6,
+        "image": "4_balut.jpeg",
+        "description": "Traditional Filipino dish made from a fertilized duck egg, often served with vinegar and chili sauce. The egg is boiled and eaten whole, including the partially developed embryo inside."
+    },
+    {
+        "title": "Sushi 'Monkey Brain'",
+        "price": 12,
+        "image": "5_monkey-brain.jpeg",
+        "description": "Popular appetizer what consists of deep-fried avocado or mushrooms stuffed with spicy tuna or crab. Crispy on the outside and creamy on the inside, this dish is usually served with sauces."
+    },
+    {
+        "title": "Huitlacoche",
+        "price": 11,
+        "image": "6_huitlacoche.jpeg",
+        "description": "Mexican delicacy made from corn kernels infected with a fungus called corn smut (Ustilago maydis). It is often used in traditional Mexican dishes and is considered a gourmet ingredient."
+    },
+    {
+        "title": "MettBrötchen",
+        "price": 9,
+        "image": "7_Mett-Brötchen.jpeg",
+        "description": "Traditional German sandwich consisting of a fresh, crisp bread roll filled with raw ground pork (Mett), seasoned with salt, pepper, and often onions."
+    },
+    {
+        "title": "Chapulines",
+        "price": 13,
+        "image": "8_chapulines.jpeg",
+        "description": "Traditional Mexican dish made from fried or roasted grasshoppers, often seasoned with chili and lime."
+    },
+    {
+        "title": "Century Egg",
+        "price": 7,
+        "image": "9_century-eggs.jpeg",
+        "description": "Traditional Chinese dish made by preserving duck eggs in a brine solution for several months. The eggs are then peeled and served with vinegar and chili sauce."
+    },
+    {
+        "title": "Tuna Eyes",
+        "price": 6,
+        "image": "10_tuna-eyes.jpeg",
+        "description": "Tuna eyes are a nutrient-rich delicacy, particularly in Vietnam and Japan. Commonly served stewed in earthenware pots with soy sauce, ginger, and herbs, or sautéed."
+    },
+    {
+        "title": "Dango",
+        "price": 6,
+        "image": "11_dango.jpeg",
+        "description": "Popular Japanese balls made from glutinous rice flour (mochigome-ko), served three at a time on a bamboo skewer. They are a traditional sweet treat often served with green tea."
+    },
+    {
+        "title": "Battenberg Cake",
+        "price": 8,
+        "image": "12_battenberg-cake.jpeg",
+        "description": "A light sponge cake from England with coloured sections held together with jam and covered in marzipan. In cross section, the cake has a distinctive pink-and-yellow check pattern."
+    },
+    {
+        "title": "Almond Tofu",
+        "price": 8,
+        "image": "13_Almond-tofu.jpeg",
+        "description": "Soft, jellied dessert made of apricot kernel milk, agar, and sugar popular throughout East Asia."
+    },
+    {
+        "title": "Tavuk-Göğsü",
+        "price": 10,
+        "image": "14_tavuk-gyogsu.jpeg",
+        "description": "Traditional Turkish dish made from chicken breast, often served with rice and vegetables. The chicken is typically boiled and shredded before being mixed with rice and spices."
+    },
+    {
+        "title": "Snake Blood drink",
+        "price": 14,
+        "image": "15_snake-blood.jpeg",
+        "description": "Cocktail is known in East Asian countries. Vodka (sometimes whiskey) is poured into a glass, an incision is made in the snake's belly, and the blood is strained into the glass. It is recommended to drink the drink quickly."
+    },
+    {
+        "title": "Mezcal with worm",
+        "price": 16,
+        "image": "16_mescal.jpeg",
+        "description": "A traditional Mexican alcoholic beverage made from fermented agave juice. A glass of mezcal also contains the caterpillar Hypopta agavis, which is a parasite on agave trees."
+    },
+    {
+        "title": "Rat Wine",
+        "price": 13,
+        "image": "17_rat-wine.jpeg",
+        "description": "Traditional drink in some regions of southern China and Korea, it is made by drowning baby mice (no older than 72 hours) in rice wine. The mixture is fermented for 12 to 14 months. It is not recommended to drink more than one glass."
+    },
+    {
+        "title": "Bilk",
+        "price": 7,
+        "image": "18_bilk.jpeg",
+        "description": "Traditional British drink made from a mixture of milk and beer. Bilk is a precursor to milk stout."
+    },
+    {
+        "title": "Lassi Cocktail",
+        "price": 7,
+        "image": "19_lassi-cocktail.jpeg",
+        "description": "A traditional Indian drink made from dahi (yogurt made from goat's milk)with the addition of water, salt, sugar, spices, fruit and ice by quickly blending until it reaches a smoothie-like consistency."
+    },
+    {
+        "title": "Mate Tea",
+        "price": 10,
+        "image": "20_mate-tea.jpeg",
+        "description": "Made from the dried and crushed leaves of the Paraguayan holly plant. It is popular in Argentina, Uruguay, Paraguay, and Brazil. This tea contains the natural stimulant mateine. This substance is similar in effect to caffeine, but its effects are milder and longer lasting. For this reason, many drink this beverage instead of coffee."
+    },
+    {
+        "title": "Cascara",
+        "price": 9,
+        "image": "21_cascara.jpeg",
+        "description": "A 'coffee tea' obtained from the dried pulp and skin of coffee berries, the taste of which resembles a sweet compote of dried fruits, rose hips, or uzvar with notes of cherry and raisins"
+    },
+    {
+        "title": "Chinotto",
+        "price": 6,
+        "image": "22_chinotto.jpeg",
+        "description": "A popular Italian soft drink with a dark amber color and a bittersweet taste, made from bitter orange peel extract (Citrus myrtle) and various herbs and spices, similar in appearance to cola but with a unique citrus flavor."
     }
 ]

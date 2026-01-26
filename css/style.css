@@ -5,8 +5,8 @@ html {
 }
 
 body {
-    background-color: #272727;
-    color: white;
+    background-color: #1B1520;
+    color: #E8EEF1;
     font-family: "Aoboshi One", monospace;
     margin: 0px;
     /* забираємо стандартні відступи в тега body */
@@ -14,7 +14,7 @@ body {
 
 
 header{
-    background: #272727;
+    background: #404688;
 }
 .btn-search{
     border-radius: 30px;
@@ -22,7 +22,8 @@ header{
 .banner {
     width: 100%;
     height: 90vh;
-    background: url('../img/Frame 1.png');
+    background-image: url('../img/banner.png'), linear-gradient(to right, #404688, #1C2541);
+    background-blend-mode: darken;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -52,7 +53,7 @@ header{
     background: #DCE5E2;
     cursor: pointer;
     transition: background .2s linear;
-    color: #272727;
+    color: #1B1520;
 }
 
 .light-theme .my-card:hover {
@@ -81,7 +82,7 @@ header{
     font-size: 1rem;
     line-height: 1rem;
     /* 120% */
-    color: rgb(154, 131, 255);
+    color: #91B7D4;
     display: flex;
     gap: 5px;
     align-items: center;
@@ -107,12 +108,14 @@ header{
 
 footer {
     margin-top: 50px;
-    background: rgb(73, 73, 73);
-    padding: 50px 100px;
+    padding: 250px 100px 100px 100px;
 }
 
 footer {
     color: #c8c8c8;
+    background-image: url(../img/footer.png);
+    background-size: cover no-repeat;
+    width: 100%;
 }
 
 .attribution {
@@ -133,7 +136,7 @@ header.fixed {
     /* Закріплено зверху */
     width: 100%;
     /* Ширина за всю ширину вікна */
-    background: #272727;
+    background: #1B1520;
     max-width: 100%;
     z-index: 100;
 }
@@ -148,9 +151,9 @@ header.fixed {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background: linear-gradient(to left, rgb(173, 154, 255), rgb(149, 110, 255));
+    background: linear-gradient(to left, #91B7D4, #91B7D4);
     border-radius: 30px;
-    color: rgb(255, 255, 255);
+    color: #E8EEF1;
     font-weight: 600;
     font-size: 0.9em;
     font-family: "Martian Mono", monospace;
@@ -167,7 +170,9 @@ header.fixed {
 
 
 .cart-btn:hover {
-    background: linear-gradient(to left, rgb(154, 131, 255), rgb(135, 91, 255));
+    background: linear-gradient(to left, #E8EEF1, #bdd7ea);
+    border: solid 2px #404688;
+    color: #404688;
 }
 
 .cart-btn:active {
