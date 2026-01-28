@@ -7,7 +7,7 @@ html {
 body {
     background-color: #1B1520;
     color: #E8EEF1;
-    font-family: "Aoboshi One", monospace;
+    font-family: "Arsenal", monospace;
     margin: 0px;
     /* забираємо стандартні відступи в тега body */
 }
@@ -29,10 +29,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #E8EEF1;
     flex-direction: column;
 }
 
+h1 {
+    font-family: "Aoboshi One", monospace;
+}
 
 .banner h1 {
     font-size: 3rem;
@@ -53,11 +56,11 @@ header{
     background: #DCE5E2;
     cursor: pointer;
     transition: background .2s linear;
-    color: #1B1520;
+    color: #404688;
 }
 
 .light-theme .my-card:hover {
-    background: #ffffff;
+    background: #DCE5E2;
 
 }
 
@@ -74,7 +77,7 @@ header{
     line-clamp: 3;
     /* number of lines to show */
     -webkit-box-orient: vertical;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 
 }
 
@@ -108,23 +111,26 @@ header{
 
 footer {
     margin-top: 50px;
-    padding: 250px 100px 100px 100px;
+    padding: 230px 100px 20px 100px;
+    text-align: center;
 }
 
 footer {
-    color: #c8c8c8;
+    color: #404688;
     background-image: url(../img/footer.png);
     background-size: cover no-repeat;
+    font-family: 'Aoboshi One', monospace;
+    font-size: 0.8rem;
     width: 100%;
 }
 
 .attribution {
-    color: #a8a8a8;
+    color: #404688;
     font-size: 12px;
 }
 
 .attribution a {
-    color: #a8a8a8;
+    color: #404688;
 }
 
 /* Проста анімація появи тексту */
@@ -151,7 +157,7 @@ header.fixed {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background: linear-gradient(to left, #91B7D4, #91B7D4);
+    background: #91B7D4;
     border-radius: 30px;
     color: #E8EEF1;
     font-weight: 600;
@@ -170,9 +176,9 @@ header.fixed {
 
 
 .cart-btn:hover {
-    background: linear-gradient(to left, #E8EEF1, #bdd7ea);
-    border: solid 2px #404688;
-    color: #404688;
+    background: #E8EEF1;
+    border: solid 2px #91B7D4;
+    color: #91B7D4;
 }
 
 .cart-btn:active {
@@ -185,9 +191,9 @@ header.fixed {
 }
 
 .cart-counter {
-    background: #fff;
+    background: #E8EEF1;
     font-size: small;
-    color: rgb(135, 91, 255);
+    color: #404688;
     border-radius: 100px;
     padding: 0 .2em;
     position: absolute;
