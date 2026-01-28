@@ -147,6 +147,15 @@ header.fixed {
     z-index: 100;
 }
 
+.nav-link {
+    color: #404688;
+}
+
+.nav-link:hover {
+    color: #E8EEF1;
+    border: solid 2px #404688;
+    border-radius: 20px;
+}
 
 /* Кнопка Кошик */
 /* Код взято з https://uiverse.io/vinodjangid07/ordinary-swan-71 */
