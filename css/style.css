@@ -53,14 +53,14 @@ h1 {
 }
 
 .my-card:hover {
-    background: #DCE5E2;
+    background: #E8EEF1;
     cursor: pointer;
     transition: background .2s linear;
     color: #404688;
 }
 
 .light-theme .my-card:hover {
-    background: #DCE5E2;
+    background: #E8EEF1;
 
 }
 
@@ -118,7 +118,7 @@ footer {
 footer {
     color: #404688;
     background-image: url(../img/footer.png);
-    background-size: cover no-repeat;
+    background-size: cover;
     font-family: 'Aoboshi One', monospace;
     font-size: 0.8rem;
     width: 100%;
@@ -149,12 +149,26 @@ header.fixed {
 
 .nav-link {
     color: #404688;
+    padding: 10px;
 }
 
 .nav-link:hover {
     color: #E8EEF1;
-    border: solid 2px #404688;
-    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn-custom {
+    color: #E8EEF1;
+    border: solid 1px #E8EEF1;
+    border-radius: 30px;
+    font-family: 'Aoboshi One', monospace;
+}
+
+.btn-custom:hover {
+    color: #E8EEF1;
+    border: solid 1px #91B7D4;
+    background: #91B7D4;
+    border-radius: 30px;
 }
 
 /* Кнопка Кошик */
@@ -171,7 +185,7 @@ header.fixed {
     color: #E8EEF1;
     font-weight: 600;
     font-size: 0.9em;
-    font-family: "Martian Mono", monospace;
+    font-family: 'Aoboshi One', monospace;
     border: none;
     position: relative;
     cursor: pointer;
