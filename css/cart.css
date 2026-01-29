@@ -60,6 +60,10 @@
     width: 100px;
 }
 
+.cart-item {
+    border: 1px solid #404688;
+}
+
 .form-control, .form-select {
     color: #E8EEF1;
     background: #40468846;
@@ -67,18 +71,32 @@
 }
 
 option {
-    color: #404688;
+    color: #91b7d4;
+    background: #1C2541;
+}
+
+.form-control::placeholder, .form-select::placeholder {
+    color: #E8EEF1;
 }
 
 .custom-toggler{
     background: none;
-    border: 1px solid #404688;
+    transition: background .1s linear;
+    border: none;
     border-radius: 10px;
     padding: 5px 15px;
 }
 
-.custom-toggler:focus{
-    border: 4px solid #404688;
+.custom-toggler:active{
+    background: #1C2541;
+    transition: background .1s linear;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.cart-item-price {
+color: #91b7d4;
 }
 
 @media (max-width: 720px) {

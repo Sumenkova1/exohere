@@ -19,6 +19,13 @@ header{
 .btn-search{
     border-radius: 30px;
 }
+
+.form-control {
+    color: #E8EEF1;
+    background: #40468846;
+    border: hidden;
+}
+
 .banner {
     width: 100%;
     height: 90vh;
@@ -148,12 +155,12 @@ header.fixed {
 }
 
 .nav-link {
-    color: #404688;
+    color: #E8EEF1;
     padding: 10px;
 }
 
 .nav-link:hover {
-    color: #E8EEF1;
+    color: #404688;
     font-weight: bold;
 }
 
@@ -162,6 +169,7 @@ header.fixed {
     border: solid 1px #E8EEF1;
     border-radius: 30px;
     font-family: 'Aoboshi One', monospace;
+    font-size: 0.7rem;
 }
 
 .btn-custom:hover {
@@ -169,6 +177,26 @@ header.fixed {
     border: solid 1px #91B7D4;
     background: #91B7D4;
     border-radius: 30px;
+}
+
+.custom-toggler{
+    background: none;
+    transition: background .1s linear;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.custom-toggler:active{
+    background: #1C2541;
+    transition: background .1s linear;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.icon-custom{
+fill: #404688;
 }
 
 /* Кнопка Кошик */
@@ -215,6 +243,7 @@ header.fixed {
 
 .cart-counter {
     background: #E8EEF1;
+    font-family: 'Arsenal', monospace;
     font-size: small;
     color: #404688;
     border-radius: 100px;
