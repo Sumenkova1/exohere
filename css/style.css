@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=PT+Mono&display=swap');
 
 html {
     font-size: 18px;
@@ -26,6 +26,10 @@ header{
     border: hidden;
 }
 
+.form-control::placeholder {
+    color: #E8EEF1;
+}
+
 .banner {
     width: 100%;
     height: 90vh;
@@ -41,7 +45,7 @@ header{
 }
 
 h1 {
-    font-family: "Aoboshi One", monospace;
+    font-family: "Aoboshi One", "PT Mono", monospace;
 }
 
 .banner h1 {
@@ -126,7 +130,7 @@ footer {
     color: #404688;
     background-image: url(../img/footer.png);
     background-size: cover;
-    font-family: 'Aoboshi One', monospace;
+    font-family: 'Aoboshi One', "PT Mono", monospace;
     font-size: 0.8rem;
     width: 100%;
 }
@@ -168,8 +172,8 @@ header.fixed {
     color: #E8EEF1;
     border: solid 1px #E8EEF1;
     border-radius: 30px;
-    font-family: 'Aoboshi One', monospace;
-    font-size: 0.7rem;
+    font-family: 'Aoboshi One', "PT Mono", monospace;
+    font-size: 0.9rem;
 }
 
 .btn-custom:hover {
@@ -213,7 +217,7 @@ fill: #404688;
     color: #E8EEF1;
     font-weight: 600;
     font-size: 0.9em;
-    font-family: 'Aoboshi One', monospace;
+    font-family: 'Aoboshi One', "PT Mono", monospace;
     border: none;
     position: relative;
     cursor: pointer;

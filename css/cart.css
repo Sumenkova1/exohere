@@ -90,9 +90,6 @@ option {
 .custom-toggler:active{
     background: #1C2541;
     transition: background .1s linear;
-    border: none;
-    border-radius: 10px;
-    padding: 5px 15px;
 }
 
 .cart-item-price {
